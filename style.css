@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px ;
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    text-decoration:none ;
+    color: #111111;
+    font-weight: 600;
+}
+nav a:hover {
+    color: #1D6FF2;
+}
+.nav-name{
+    color: #1D6FF2;
+    font-size: 24px;
+    margin: 0;
+}
