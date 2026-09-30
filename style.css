@@ -122,3 +122,54 @@ nav a:hover {
     margin: 0;
     color: #555;
 }
+.event-details {
+    display: flex;
+    gap: 40px;
+    padding: 60px;
+}
+
+.location,
+.registration {
+    flex: 1;
+}
+.location iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    margin-top: 20px;
+}
+.registration input,
+.registration textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #E5E5E5;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.registration label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.registration button {
+    background: #1D6FF2;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.registration button:hover {
+    background: #1559C7;
+}
+.event-details h2 {
+    font-size: 36px;
+    margin: 0 0 20px;
+}
+
+.event-details h3 {
+    font-size: 22px;
+    margin: 0 0 10px;
+}
