@@ -173,3 +173,8 @@ nav a:hover {
     font-size: 22px;
     margin: 0 0 10px;
 }
+footer {
+    padding: 30px 60px;
+    border-top: 1px solid #E5E5E5;
+    text-align: center;
+}
