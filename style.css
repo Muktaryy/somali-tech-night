@@ -76,3 +76,26 @@ nav a:hover {
     line-height: 1.6;
     max-width: 700px;
 }
+#speakers{
+    padding: 20px 60px;
+}
+.speakers-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.speakers-container div {
+    border: 1px solid #E5E5E5;
+    padding: 24px;
+    border-radius: 10px;
+    flex: 1;
+}
+.speakers-container h3 {
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+.speakers-container p {
+    margin: 0;
+    color: #555;
+}
